@@ -1,0 +1,15 @@
+
+
+
+#MainMenu{visibility: hidden;}
+footer{visibility: hidden;}
+header{visibility: hidden;} 
+
+a:hover{
+    color:#ec1221 !important;
+    text-decoration: none;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 1%;
+}

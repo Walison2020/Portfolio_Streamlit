@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+*{font-family:"Readex Pro";background-blend-mode: lighten;}
+
+a{
+    text-decoration: none;
+    color: white! important;
+    font-weight: 500;
+   
+}
+
+a:hover{
+    color:#ec1221 !important;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+hr{
+    margin-top: 0px;
+    margin-bottom: 1%;
+}
+
+#MainMenu{visibility: hidden;}
+footer{visibility: hidden;}
+header{visibility: hidden;} 
+
