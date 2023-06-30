@@ -8,7 +8,7 @@ import base64
 from PIL import Image
 
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
-arquivo_css = diretorio / "pages"/"styles" /"geral1.css"
+arquivo_css = diretorio / "pages"/"styles" /"geral.css"
 arquivo_img = diretorio / "pages" / "assets" / "FOTOwa.jpg"
 
 with open(arquivo_css) as c:
