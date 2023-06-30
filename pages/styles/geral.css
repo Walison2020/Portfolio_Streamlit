@@ -26,3 +26,7 @@ hr{
 footer{visibility: hidden;}
 header{visibility: hidden;} 
 
+[Theme]
+base="dark"
+font="serif"
+[deprecation]
