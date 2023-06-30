@@ -5,7 +5,7 @@ import pandas as pd
 from ipyvizzu import Chart, Data, Config, Style
 
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
-arquivo_css = diretorio / "pages"/ "styles" / "geral1.css"
+arquivo_css = diretorio / "pages"/ "styles" / "geral.css"
 
 with open(arquivo_css) as c:
     st.markdown("<style>{}</style>".format(c.read()), unsafe_allow_html=True)
