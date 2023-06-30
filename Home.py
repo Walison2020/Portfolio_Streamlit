@@ -104,9 +104,11 @@ if selecao == "Deepnote":
     components.iframe("https://embed.deepnote.com/9dfd6154-805d-4cff-bdf3-d1aff2d50185/3ec5dfe0287241659c437ae2775a4782/fb4c94505bcd4fd484e7e6211b0e31b0?height=994", height=500)
     components.iframe("https://embed.deepnote.com/9dfd6154-805d-4cff-bdf3-d1aff2d50185/3ec5dfe0287241659c437ae2775a4782/1109077e4a8c4de0af23b6fc88942b14?height=133.34375S")
     st.subheader("**")
-    st.subheader("Falando um pouco do Streamlit ")
+    st.markdown("<h1 style='text-align: center;'>Falando um pouco do Streamlit</h1>",
+            unsafe_allow_html=True)
     components.iframe("https://docs.streamlit.io/library/components/components-api", height=600, width=700, scrolling=True)
     st.balloons()
-    st.subheader("Testando link  do Site Mercado Livre")
+    st.markdown("<h1 style='text-align: center;'>Testando link  do Site Mercado Livre</h1>",
+            unsafe_allow_html=True)
     st.caption("https://www.mercadolivre.com.br/")
     components.iframe("https://www.mercadolivre.com.br/ofertas/tendencias-explosivas#DEAL_ID=&S=MKT&V=1&T=MS&L=MKTPLACE_FASHION_BEAUTY_PPSMULTICAT__SEMANA_MODA_E_BELEZA&me.bu_line=26&me.flow=-1&me.bu=3&me.audience=all&me.content_id=MS_SEMANA_MODA_E_BELEZA_22_06&me.component_id=main_slider_web_ml_0&me.logic=user_journey&me.position=0&audience=all&bu=3&bu_line=26&component_id=main_slider_web_ml_0&content_id=MS_SEMANA_MODA_E_BELEZA_22_06&flow=-1&logic=user_journey&position=0&c_id=/home/exhibitors-carousel/element&c_campaign=MKTPLACE_FASHION_BEAUTY_PPSMULTICAT__SEMANA_MODA_E_BELEZA&c_element_order=1&c_uid=8bc910fd-1c2c-4582-9275-93b50adc811a", height=600, width=700, scrolling=True)
