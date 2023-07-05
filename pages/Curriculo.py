@@ -2,6 +2,7 @@ from pathlib import Path # usado para trabalhar com arquivos#
 import streamlit as st
 from PIL import Image # usado para trabalhar com imagens#
 
+st.set_page_config(page_title="Walison - Curriculo", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
 # Configurações Estruturais #
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 arquivo_css = diretorio / "pages"/"styles" /"geral.css"
