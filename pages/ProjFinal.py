@@ -10,7 +10,7 @@ from pathlib import Path
 st.set_page_config(page_title="Dashboard Games", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
 
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
-arquivo = diretorio / "geral.css"
+arquivo_css = diretorio / "pages"/ "styles" / "geral.css"
 
 with open(arquivo) as c:
     st.markdown("<style>{}</style>".format(c.read()), unsafe_allow_html=True)
