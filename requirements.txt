@@ -90,7 +90,7 @@ appdirs==1.4.4
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 
-attrs==22.1.0
+
 Babel==2.10.3
 backcall==0.2.0
 base==0.0.0
@@ -230,6 +230,6 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.4.1
 widgetsnbextension==4.0.7
-wordcloud==1.9.2
+
 yfinance==0.2.18
-zipp==3.15.0
+
