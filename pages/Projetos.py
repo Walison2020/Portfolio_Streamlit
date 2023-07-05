@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import altair as alt
 import plotly.figure_factory as ff
 
-
+st.set_page_config(page_title="Walison - Projetos", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
 
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 arquivo_css = diretorio / "pages"/"styles" /"geral.css"
