@@ -12,7 +12,7 @@ st.set_page_config(page_title="Dashboard Games", layout="centered", page_icon="â
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 arquivo_css = diretorio / "pages"/ "styles" / "geral.css"
 
-with open(arquivo) as c:
+with open(arquivo_css) as c:
     st.markdown("<style>{}</style>".format(c.read()), unsafe_allow_html=True)
 
 
