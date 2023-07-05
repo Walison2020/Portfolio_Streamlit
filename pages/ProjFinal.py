@@ -20,7 +20,7 @@ with open(arquivo) as c:
 
 
 def importa_dados():
-    df = pd.read_csv("/data/vgsales.csv")
+    df = pd.read_csv("pages/data/vgsales.csv")
     df = df.dropna()  # para retirar valores ausentes#
     df["Year"] = df["Year"].astype(int)  # Tranformar em inteiro#
     df = df.sort_values("Year", ascending=False)
