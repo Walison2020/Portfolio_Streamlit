@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="Walison", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Walison - Page", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 arquivo_css = diretorio / "pages"/ "styles" / "geral1.css"
 
