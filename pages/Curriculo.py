@@ -5,7 +5,7 @@ from PIL import Image # usado para trabalhar com imagens#
 st.set_page_config(page_title="Walison - Curriculo", layout="centered", page_icon="☘️", initial_sidebar_state="expanded")
 # Configurações Estruturais #
 diretorio = Path(__file__).parent if "_file_" in locals() else Path.cwd()
-arquivo_css = diretorio / "pages"/"styles" /"geral.css"
+arquivo_css = diretorio / "pages"/"styles" /"geral1.css"
 arquivo_pdf = diretorio / "pages" / "assets" / "WalisonCurri2023.pdf"
 arquivo_img = diretorio / "pages" / "assets" / "FOTOwa.jpg"
 
