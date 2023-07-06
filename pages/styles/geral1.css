@@ -1,8 +1,3 @@
-*{primaryColor="#d33682"
-backgroundColor="#002b36"
-secondaryBackgroundColor="#586e75"
-textColor="#fff"
-  }
 
 #MainMenu{visibility: hidden;}
 footer{visibility: hidden;}
@@ -16,3 +11,9 @@ hr{
     margin-top: 0px;
     margin-bottom: 1%;
 }
+*{
+primaryColor="#d33682";
+backgroundColor="#002b36";
+secondaryBackgroundColor="#586e75";
+textColor="#fff";
+  }
