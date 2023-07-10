@@ -11,12 +11,11 @@ hr{
     margin-top: 0px;
     margin-bottom: 1%;
 }
-*{
-primaryColor="#d33682";
-backgroundColor="#002b36";
-secondaryBackgroundColor="#586e75";
-textColor="#fff";
-  }
+.css-ffhzg2 {
+       background:#1a1a1a;
+        color: #e0e0e0;
+   
+}
 a{
     text-decoration: none;
     color: white! important;
