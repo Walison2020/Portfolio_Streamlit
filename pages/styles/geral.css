@@ -3,8 +3,8 @@
 *{font-family:"Readex Pro";background-blend-mode: lighten;}
 
 a{
-    text-decoration: none;
-    color: white! important;
+    text-decoration: none !import;
+    color: white !important;
     font-weight: 500;
    
 }
