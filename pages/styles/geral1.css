@@ -17,3 +17,9 @@ backgroundColor="#002b36";
 secondaryBackgroundColor="#586e75";
 textColor="#fff";
   }
+a{
+    text-decoration: none;
+    color: white! important;
+    font-weight: 500;
+   
+}
