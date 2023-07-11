@@ -23,11 +23,8 @@ a{
 }
 
 .reportview-container {
-     primaryColor="#d33682"
-backgroundColor="#002b36"
-secondaryBackgroundColor="#586e75"
-textColor="#fff"
-base="dark"
-font="serif"
-[deprecation]
+Background-Color: #586e75
+textColor: #fff
+font: serif
+
  }
