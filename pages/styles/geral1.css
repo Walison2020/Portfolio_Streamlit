@@ -11,8 +11,9 @@ hr{
     margin-bottom: 1%;
 }
 .css-ffhzg2 {
-       background:#1a1a1a;
-        color: #e0e0e0;
+    position: absolute;
+    background: #2e0404;
+    color: rgb(250, 250, 250);}
    
 }
 a{
